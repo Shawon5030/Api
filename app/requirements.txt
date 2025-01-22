@@ -1,0 +1,8 @@
+Django==5.1.1
+djangorestframework==3.14.0
+mysqlclient==2.1.1
+Pillow==10.0.0
+requests==2.31.0
+opencv-python-headless==4.8.0.74
+PyMuPDF==1.22.5
+```
