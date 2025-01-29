@@ -11,6 +11,12 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
 from pathlib import Path
+import sys
+
+DEFAULT_CHARSET = 'utf-8'
+
+if sys.platform.startswith("win"):
+    FILE_CHARSET = "utf-8"
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
