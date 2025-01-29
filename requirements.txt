@@ -4,4 +4,5 @@ Pillow==10.0.0
 requests==2.31.0
 PyMuPDF==1.22.5
 sqlparse==0.5.3
-gunicore==23.0.0
+gunicorn==21.2.0
+
