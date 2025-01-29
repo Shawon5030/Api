@@ -152,3 +152,7 @@ class PDFParsingAPIView(APIView):
             logger.error(f"Error converting text to JSON: {e}")
             return []
 
+# Ensure the response is encoded in UTF-8
+def json_response(data, status=status.HTTP_200_OK):
+    return Response(data, status=status, content_type='application/json; charset=utf-8')
+
